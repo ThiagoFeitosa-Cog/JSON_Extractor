@@ -1,0 +1,19 @@
+{
+  "name": "dsfe-lf-rmd-web-service",
+  "requiredNodeVersion": "16.14.0",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "RMD Web service",
+  "author": "TMNA",
+  "main": "report-xl.js",
+  "scripts": {
+    "build": "tsc report-xl.ts",
+    "start": "node report-xl.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
